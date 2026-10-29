@@ -34,7 +34,7 @@ syntax:
     notes: "Backticks remain visible and code is not styled."
   - id: horizontal-rules
     available: p
-    notes: "A line containing --- starts a new slide section instead of drawing a horizontal rule. Other rule markers are not interpreted."
+    notes: "A line containing `---` starts a new slide section instead of drawing a horizontal rule. Other rule markers are not interpreted."
   - id: links
     available: n
     notes: "Link syntax remains visible. Links are not clickable in the image-based PDF."
@@ -46,7 +46,7 @@ syntax:
     notes: "Table markup remains plain text."
   - id: fenced-code-blocks
     available: n
-    notes: "Fences are not recognized. Heading or --- lines inside a fenced block are still treated as slide structure."
+    notes: "Fences are not recognized. Heading or `---` lines inside a fenced block are still treated as slide structure."
   - id: syntax-highlighting
     available: n
   - id: footnotes
